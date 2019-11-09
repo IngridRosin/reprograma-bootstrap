@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"> </script>
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+  <header>
+    <!--NAV BAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Tobi & Lupi - Vida de Gato <i class="gato fas fa-cat"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
+          <a class="nav-item nav-link" href="#sobre">Sobre</a>
+          <a class="nav-item nav-link" href="#fotos">Fotos</a>
+          <a class="nav-item nav-link" href="#adote">Adote</a>
+          <a class="nav-item nav-link" href="#redes">Redes</a>
+          <a class="nav-item nav-link" data-toggle="modal" data-target="#modalContato">Contato</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--CAROUSEL-->
+    <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 imagem-carrossel" src="src/img/Sem título (1).png" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 imagem-carrossel" src="src/img/segundo slide.jpg" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 imagem-carrossel" src="src/img/tobisofa2.jpg" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </section>
+  </main>
+  <!--SOBRE-->
+  <section class="container textos" id="sobre">
+    <h1 class="text-center fonte-texto-titulo py-5">Sobre nós</h1>
+    <div class="media mb-5">
+      <img class="mr-3 imagem-card" src="src/img/olatobi.jpg" alt="Imagem de exemplo genérica">
+      <div class="media-body">
+        <h5 class="mt-0 fonte-texto-subtitulo">Olá, eu sou o Tobi!</h5>
+        <p class="fonte-texto">Sou um gatinho que adora carinho e se não me dão carinho eu
+          mio até conseguir.
+          Adoro dormir perto dos meus donos e de ganhar cafuné. As visitas são sempre bem vindas, desde que me encham
+          de carinho. Não como qualquer comida e nem uso qualquer areia, e se for contrariado, deixo um aviso no sofá.
+          Sou um gatinho que ronrona fácil. Prrrrr </p>
+      </div>
+    </div>
+    <div class="media">
+      <img class="mr-3 imagem-card" src="src/img/olalupi.jpg" alt="Imagem de exemplo genérica">
+      <div class="media-body">
+        <h5 class="mt-0 fonte-texto-subtitulo">Olá, eu sou o Lupi!</h5>
+        <p class="fonte-texto">Adoro brincar e pular. Sigo meus donos pra todos os cantos e
+          me enfio nos lugares, eu gosto mesmo é de
+          explorar. Mas às vezes prefiro ficar na minha caminha bem quietinha. Pessoas estranham demoram pra conquistar
+          meu coração. Dizem por aí que tenho miado
+          mais fofo do mundo e que pulo como uma cabritinha. Se quer ganhar meu coração, me dê uma lata de um delicioso
+          patê. </p>
+      </div>
+    </div>
+  </section>
+  <!--FOTOS-->
+  <section class="container textos" id="fotos">
+    <h1 class="text-center fonte-texto-titulo py-5">Fotos dos nossos fucinhos</h1>
+    <div class="row justify-content-between text-center">
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/yobi.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Relaxando no meu sofá.</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/luetoagarradinhos.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Juntos e shallow now</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/lupibancada.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Explorando nossa casa.</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/dormindo.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Dormindo juntinhos.</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/lupilinguinha.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Caretinha!</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/tobilupisofa.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Sempre juntos!</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/tobicontor.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Espreguiçando meu corpinho.</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/tobilupicorredor.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Na pausa da brincadeira.</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/cabeçapbaixo.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Olá humano!</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/tobinho.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Sou bonitão!</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/Yin Yang.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Yin yang felino</p>
+        </div>
+      </div>
+      <div class="card borda-card m-3" style="width: 18rem;">
+        <img class="card-img-top imagem-card" src="src/img/brothers.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Relaxando...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--ADOTE-->
+  <section class="container text-center textos" id="adote">
+    <h1 class="fonte-texto-titulo py-5">Adote um gatinho</h1>
+    <ul class="links pl-0">
+      <li><a href="http://www.adoteumgatinho.com.br/" class="fonte-texto py-2">Adote um gatinho</a></li>
+      <li><a href="http://www.catland.org.br/" class="fonte-texto py-2">Catland</a></li>
+      <li><a href="https://www.mundogato.org.br/" class="fonte-texto py-2">Mundo gato</a></li>
+      <li><a href="https://www.sosgatinhos.com.br/" class="fonte-texto py-2">SOS gatinhos</a></li>
+    </ul>
+  </section>
+  <!-- REDES -->
+  <section class="container text-center textos" id="redes">
+    <h1 class="fonte-texto-titulo py-5">Redes da nossa humana</h1>
+    <div class="row justify-content-center pb-3">
+      <div><a class="px-4 icone fab fa-instagram" href="https://www.instagram.com/ingridrosin"></a></div>
+      <div><a class="px-4 icone fab fa-facebook-square" href="https://www.facebook.com/ingrid.coutorosin"></a></div>
+      <div><a class="px-4 icone fab fa-twitter-square" href="https://twitter.com/guibs_z"></a></div>
+    </div>
+  </section>
+  <!-- Miau -->
+  <section class="container text-center textos">
+    <h1 class="miau py-5"> Miauuuuuuuuuu <i class="fas fa-paw"></i></h1>
+  </section>
+  <!-- MODAL -->
+  <section class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title " id="exampleModalLabel">Contato</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- FORM -->
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Selecione o tipo de
+                comentário</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Dúvidas</option>
+                <option>Sugestōes</option>
+                <option>Elogios</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Escreva aqui seu
+                comentário</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <Footer>
+    <div class="text-center fonte-footer pt-3">
+      <p>Ingrid Rosin 2019 | {reprograma}</p>
+    </div>
+  </Footer>
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>

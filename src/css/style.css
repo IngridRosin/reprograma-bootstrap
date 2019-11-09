@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth; 
+}
+.gato{
+    font-size: 25px;
+}
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+.textos{
+    font-family: 'Zilla Slab', serif;
+}
+.fonte-texto-titulo {
+    font-size: 40px;
+}
+.fonte-texto-subtitulo {
+    font-size: 30px;
+}
+.fonte-texto {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+    width: 286px;
+}
+.links{
+    list-style: none;
+}
+.icone{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;   
+}
+.miau{
+    font-size: 30px;
+}
+.fonte-footer{
+    font-size: 18px;
+}
+
+@media (max-width: 767.98px) {
+    .media {
+        display: block;
+    }
+    .imagem-card {
+        padding-bottom: 20px;
+    }
+}
